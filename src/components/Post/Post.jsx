@@ -14,10 +14,10 @@ function Post({ data }) {
         <img src={Comment} alt="" />
         <img src={Share} alt="" />
       </div>
+      <span><b>{data.likes} Likes</b></span>
       <div className="PostDetails">
         <span><b>{data.name}</b></span>
-        <span> {data.caption}</span><br />
-        <span>{data.likes} Likes</span>
+        <span> {data.caption}</span> 
       </div>
     </div>
   )
