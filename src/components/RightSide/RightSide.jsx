@@ -4,6 +4,7 @@ import Home from '../../img/home.png'
 import { UilSetting } from '@iconscout/react-unicons'
 import Notification from '../../img/noti.png'
 import Comment from '../../img/comment.png'
+import TrendCard from '../TrendCard/TrendCard'
 
 function RightSide() {
   return (
@@ -14,6 +15,10 @@ function RightSide() {
             <img src={Notification} alt="" />
             <img src={Comment} alt="" />
         </div>
+        <TrendCard />
+        <button className='Button Share'>
+            Share
+        </button>
     </div>
   )
 }
