@@ -9,16 +9,20 @@ function Post({ data }) {
   return (
     <div className='Post'>
       <img src={data.img} alt="" />
+
       <div className="PostReactions">
         <img src={data.liked ? Like : NoLike} alt="" />
         <img src={Comment} alt="" />
         <img src={Share} alt="" />
       </div>
-      <span><b>{data.likes} Likes</b></span>
+
+      <span style={{color: "var(--gray)", fontSize: "12px"}}>{data.likes} Likes</span>
+
       <div className="PostDetails">
         <span><b>{data.name}</b></span>
-        <span> {data.caption}</span> 
+        <span> {data.caption}</span>
       </div>
+
     </div>
   )
 }

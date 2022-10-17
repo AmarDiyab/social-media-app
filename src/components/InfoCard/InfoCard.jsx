@@ -18,12 +18,14 @@ function InfoCard() {
             </span>
             <span style={{float: "right"}}>Single</span>
         </div>
+
         <div className="Info">
             <span>
                 <b>Lives in </b>
             </span>
             <span style={{float: "right"}}>Kerala</span>
         </div>
+        
         <div className='Info'>
             <span>
                 <b>Works At </b>
