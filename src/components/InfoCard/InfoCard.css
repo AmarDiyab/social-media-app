@@ -1,0 +1,33 @@
+.InfoCard {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    background-color: var(--cardColor);
+    padding: 1rem;
+    width: 90%;
+    border-radius: 1rem;
+}
+
+.InfoHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.InfoHead>div:hover {
+    cursor: pointer;
+}
+
+.LogoutButton {
+    width: 16rem;
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+.LogoutButton:hover {
+    width: 16rem;
+    cursor: pointer;
+    color: orange;
+    background: transparent;
+    border: 2px solid var(--orange);
+}
