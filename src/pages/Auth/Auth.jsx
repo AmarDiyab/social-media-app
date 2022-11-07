@@ -29,12 +29,14 @@ function SignUp() {
                     <input type="text" className='infoInput' placeholder='Username' name='username ' />
                 </div>
                 <div>
-                    <input type="text" className="infoInput" placeholder='Password' name='password' />
-                    <input type="text" className="infoInput" placeholder='Confirm Password' name='confirmpass' />
+                    <input type="password" className="infoInput" placeholder='Password' name='password' />
+                    <input type="password" className="infoInput" placeholder='Confirm Password' name='confirmpass' />
                 </div>
+
                 <div>
                 <span className='span'>Already have an account?</span>
                 </div>
+
                 <button className='Button infoButton' type='submit'>Sign Up</button>                
             </form>
         </div>
