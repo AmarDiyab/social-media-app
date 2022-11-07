@@ -16,6 +16,31 @@ function Auth() {
   )
 }
 
+function LogIn() {
+    return (
+      <div className="AuthRight">
+        <form className="infoForm AuthForm">
+          <h3>Log In</h3>
+  
+          <div>
+            <input type="text" placeholder="Username" className="infoInput" name="username"/>
+          </div>
+  
+          <div>
+            <input type="password" className="infoInput" placeholder="Password" name="password"/>
+          </div>
+  
+          <div>
+              <span style={{ fontSize: "medium", marginLeft: "5px" }}>
+                Don't have an account?
+              </span>
+            <button className="Button infoButton">Login</button>
+          </div>
+        </form>
+      </div>
+    );
+  }
+
 function SignUp() {
     return (
         <div className="AuthRight">
