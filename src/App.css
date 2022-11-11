@@ -42,7 +42,6 @@
 }
 
 .Button:hover {
-  width: 72px;
   cursor: pointer;
   color: orange;
   background: transparent;
